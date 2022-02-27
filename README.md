@@ -1,5 +1,5 @@
 # MBitTree-on-FPGA
-Implement the MBitTree on FPGA, in FPT 2021
+FPT 2021 paper: High-performance pipeline architecture for packet classification accelerator in DPU
 
 # 在FPGA上实现决策树算法
 决策树等报文分类软件算法具有高度的灵活性，然而其分类速度相比硬件解决方案差距在一个数量级以上，因此在FPGA等硬件平台上实现决策树，能够兼顾软件灵活性和硬件高性能的优点，满足线速度分类的需求。硬件实现决策树的基本思想是将软件构建的决策树映射到FPGA的流水线中。
